@@ -1,4 +1,4 @@
-package com.abhiram.common
+package com.abhiram.common.creds
 
 class AppwriteCreds {
     private lateinit var key : String

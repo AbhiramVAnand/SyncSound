@@ -1,5 +1,6 @@
 package com.abhiram.common
 
+import com.abhiram.common.creds.AppwriteCreds
 import io.appwrite.Client
 import io.appwrite.ID
 import io.appwrite.services.Users
