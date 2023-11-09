@@ -20,6 +20,7 @@ kotlin {
                 api(compose.runtime)
                 api(compose.foundation)
                 api(compose.material)
+                implementation("io.appwrite:sdk-for-kotlin:4.0.0")
             }
         }
         val commonTest by getting {
