@@ -1,12 +1,13 @@
-package com.abhiram.common
+package com.abhiram.common.AppWrite
 
-import com.abhiram.common.creds.AppwriteCreds
+import com.abhiram.common.AppWrite.AppwriteCreds
 import io.appwrite.Client
 import io.appwrite.ID
 import io.appwrite.services.Users
 
 class Appwrite {
     var client : Client
+
 
     init {
         var creds = AppwriteCreds()

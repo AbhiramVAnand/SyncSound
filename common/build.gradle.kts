@@ -21,6 +21,8 @@ kotlin {
                 api(compose.foundation)
                 api(compose.material)
                 implementation("io.appwrite:sdk-for-kotlin:4.0.0")
+                implementation("com.google.zxing:core:3.4.0")
+                implementation("io.github.hoc081098:kmp-viewmodel:0.5.0")
             }
         }
         val commonTest by getting {
