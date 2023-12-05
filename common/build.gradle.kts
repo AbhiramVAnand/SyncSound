@@ -1,5 +1,3 @@
-import org.jetbrains.compose.compose
-
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
@@ -22,6 +20,11 @@ kotlin {
                 api(compose.material)
                 implementation("io.appwrite:sdk-for-kotlin:4.0.0")
                 implementation("com.google.zxing:core:3.4.0")
+                implementation("io.ktor:ktor-client-core:2.3.6")
+                implementation("io.ktor:ktor-client-serialization:2.3.6")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
+                implementation("io.ktor:ktor-client-logging-jvm:2.3.6")
+                implementation("io.ktor:ktor-client-cio:2.3.6")
                 implementation("io.github.hoc081098:kmp-viewmodel:0.5.0")
             }
         }

@@ -26,5 +26,6 @@ class Appwrite {
         )
     }
 
+    //TODO Create functions and qr code generators
 
 }
